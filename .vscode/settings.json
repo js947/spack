@@ -1,0 +1,5 @@
+{
+    "docker.host":"tcp://51.140.183.174:2376",
+    "docker.certPath": "/Users/js947/.docker/machine/machines/az",
+    "docker.tlsVerify": "1" // or "0"
+}
