@@ -6,7 +6,7 @@
         {
             "label": "spack test",
             "type": "shell",
-            "command": "bin/spack -vd test view_extension",
+            "command": "bin/spack -vd test extension",
             "group": {
                 "kind": "build",
                 "isDefault": true
