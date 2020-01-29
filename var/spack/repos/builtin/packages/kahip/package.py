@@ -28,6 +28,7 @@ class Kahip(SConsPackage):
 
     version('develop', branch='master')
     version('2.11', sha256='9351902b9e1c53b16ac7c3ba499a8f52348cae945c5cfc00e82c2c68302e1dca')
+    version('2.10', sha256='6d16a40e67a28914999bacb8c6011a9a28d8b8c259683848e2a13b77fd7e39c6')
     version('2.00', sha256='1cc9e5b12fea559288d377e8b8b701af1b2b707de8e550d0bda18b36be29d21d', url='http://algo2.iti.kit.edu/schulz/software_releases/KaHIP_2.00.tar.gz')
 
     depends_on('argtable')
