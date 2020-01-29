@@ -23,11 +23,12 @@ class Kahip(SConsPackage):
     """
 
     homepage  = 'http://algo2.iti.kit.edu/documents/kahip/index.html'
-    url       = 'http://algo2.iti.kit.edu/schulz/software_releases/KaHIP_2.00.tar.gz'
+    url       = 'https://github.com/schulzchristian/KaHIP/archive/v2.11.tar.gz'
     git       = 'https://github.com/schulzchristian/KaHIP.git'
 
     version('develop', branch='master')
-    version('2.00', sha256='1cc9e5b12fea559288d377e8b8b701af1b2b707de8e550d0bda18b36be29d21d')
+    version('2.11', sha256='9351902b9e1c53b16ac7c3ba499a8f52348cae945c5cfc00e82c2c68302e1dca')
+    version('2.00', sha256='1cc9e5b12fea559288d377e8b8b701af1b2b707de8e550d0bda18b36be29d21d', url='http://algo2.iti.kit.edu/schulz/software_releases/KaHIP_2.00.tar.gz')
 
     depends_on('argtable')
     depends_on('mpi')  # Note: upstream package only tested on openmpi
