@@ -22,6 +22,7 @@ class Trinity(MakefilePackage):
     homepage = "http://trinityrnaseq.github.io/"
     url      = "https://github.com/trinityrnaseq/trinityrnaseq/archive/Trinity-v2.6.6.tar.gz"
 
+    version('2.8.5', sha256='eef3691aee5dbc73d8ce609f82912d3d0ae81eabced5fa61d1e53dbfe37cf3dc')
     version('2.6.6', sha256='868dfadeefaf2d3c6150a88d5e86fbc09466d69bbf4a65f70b4f5a7485668984')
 
     depends_on("java@8:", type=("build", "run"))
